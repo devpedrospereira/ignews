@@ -16,7 +16,7 @@ export default function Home({ product }: HomeProps) {
     return (
         <>
             <Head>
-                <title>Início | ig.news</title>
+                <title>Início | ig.news - DevPedroPereira</title>
             </Head>
 
             <main className={styles.contentContainer}>
@@ -25,11 +25,12 @@ export default function Home({ product }: HomeProps) {
 
                     <h1>
                         {" "}
-                        Novidades sobre o mundo <span>React</span>{" "}
+                        Novidades sobre o mundo <span>Tech</span>{" "}
                     </h1>
                     <p>
                         Tenha acesso a todas as publicações <br />
-                        <span>por {product.amount}/mes</span>
+                        <span>por {product.amount}/mes </span>
+                        (Aplicação de teste)
                     </p>
                     <SubscribeButton priceID={product.priceId} />
                 </section>
